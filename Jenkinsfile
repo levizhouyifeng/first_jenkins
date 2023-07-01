@@ -11,6 +11,7 @@ pipeline {
                 sh '''
                 ls -ltr
                 pwd
+                cat python3 hello_jenkins.py
                 '''
             }
         }
