@@ -11,8 +11,8 @@ pipeline {
                 sh '''
                 ls -ltr
                 pwd
-                cat hello_jenkins.py
                 '''
+                echo "say you love me..........."
             }
         }
         stage('Test') {
